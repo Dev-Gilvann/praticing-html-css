@@ -1,0 +1,46 @@
+:root{
+    --main-white: #fff;
+    --secondary_gray:#C0C0C0;
+    --blue_button: #167BF7;
+    --background_color: #00030C;
+}
+
+body{
+    background-color: var(--background_color);
+    color: var(--main-white);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.button_link{
+    background-color: var(--blue_button);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--main-white);
+    text-decoration: none;
+    display: block;
+}
+
+.button_link_secondary{
+    background-color: transparent;
+    border: 2px solid var(--main-white);
+    border-radius: 5px;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+}
