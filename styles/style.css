@@ -3,11 +3,15 @@
     --secondary_gray:#C0C0C0;
     --blue_button: #167BF7;
     --background_color: #00030C;
+    --main-font:'Inter';
 }
 
 body{
     background-color: var(--background_color);
     color: var(--main-white);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 *{
@@ -19,6 +23,8 @@ body{
     background-image: url("../img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
@@ -34,6 +40,7 @@ body{
     color: var(--main-white);
     text-decoration: none;
     display: block;
+    margin-bottom: 1em;
 }
 
 .button_link_secondary{
@@ -43,4 +50,55 @@ body{
     padding: 1em;
     text-decoration: none;
     display: block;
+    color: var(--main-white);
+}
+
+.container__paragraph1{
+   font-size: 12px;
+    color: var(--secondary_gray);
+}
+.container__title{
+    font-size: 28px;
+}
+
+.container_image{
+    margin: 1em 0 2em 0;
+}
+
+.container_box{
+    margin: 0 6em;
+}
+.secondary{
+    align-items: center;
+    text-align: center;
+    margin: 0 10em;
+}
+
+.secondary_image{
+    width: 80%;
+}
+
+.description_title{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--main-white);
+    margin-bottom: 0.1em;
+}
+
+.container__paragraph3{
+    color: var(--secondary_gray);
+    margin: 2em;
+}
+
+.button_link3{
+    background-color: var(--blue_button);
+    color: var(--main-white);
+    padding: 1em;
+    border-radius: 8px;
+    margin: 1em, 0;
+    text-decoration: none;
+}
+
+.image_3{
+    width: 80%;
 }
