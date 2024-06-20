@@ -122,3 +122,35 @@ body{
     font-size: 32px;
     color: var(--main-white);
 }
+
+footer{
+    margin: 1.5em;
+}
+
+.box_img_footer{
+   display: flex;
+   justify-content: center;
+   margin: 0.8em 0;
+}
+
+.footer_ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.footer_h5{
+    margin: 0 2.5px;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.credits_footer{
+    text-align: center;
+    margin: 1em;
+}
+.credits_description{
+    font-size: 9.5px;
+    color: var(--secondary_gray);
+}
