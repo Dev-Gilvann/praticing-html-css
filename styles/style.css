@@ -154,3 +154,11 @@ footer{
     font-size: 9.5px;
     color: var(--secondary_gray);
 }
+
+.footer_ul h5:hover{
+    color: var(--blue_button);
+}
+
+.footer_ul h5:active{
+    color: purple;
+}
